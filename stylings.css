@@ -1,0 +1,380 @@
+#tapIt{
+    margin: auto;
+    border: 5px solid red;
+    background: blue;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: none;
+    }
+    
+    #dragBox{
+    
+        height: 100px;
+        width: 200px;
+        border: 4px solid red;
+        background-color: #885544;
+        position: absolute;
+        border-radius:   50%   30% ;
+        text-align: center ;
+    }
+    
+    
+    
+    .smallBox, .smallBox2 {
+        height: 200px;
+        width: 200px;
+        border: 5px solid black;
+        background-color: aqua;
+        color: black;
+        font-size: 20px; 
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 50%;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .largeBox, .largeBox2 {
+        height: 400px;
+        width: 400px;
+        border: 5px solid greenyellow;
+        background-color: rosybrown;
+        color: red;
+        font-size: 40px; 
+        margin: 150px;
+        text-align: center;
+    }
+    
+    
+    .boxResizable, .boxResizable2 {
+    
+        background-color: tomato;
+        height: 200px;
+        width: 300px;
+    }
+    
+    .sortablePart ul{
+    list-style: none;
+    color: red;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    }
+    .sortablePart ul li {padding: 10px;
+                        margin: 4px; 
+                        border: 3px solid rgb(49, 47, 47);
+                        background-color: silver;
+     }
+    
+    
+    .sleectOption ul{
+        list-style: none;
+    color: whitesmoke;
+    text-align: center;
+    width: 75%;
+    margin: auto;}
+    
+    .sleectOption ul li {
+        margin: 5px; 
+        border: 3px solid rgb(7, 7, 7);
+        background-color: #888988;
+    }
+    
+    .sleectOption ul li.ui-selected {
+    
+      color: rgb(252, 7, 7);
+        background: green;
+       
+    }
+    .sleectOption ul li.ui-selected h4{
+        background-color: khaki;
+    }
+    .sleectOption ul li.ui-selecting{
+       color: white;
+        background: blue;
+    }
+    
+    #accordionContainer{
+    
+        margin: auto;
+        text-align: center;
+        width: 75%;
+      
+    }
+    
+    
+    #accordionContainer h3{  
+        background-color: rgb(109, 111, 114);
+        color: white;
+    }
+    
+    .toTop {
+    
+         background-color: rgb(0, 0, 0, 0.8);
+         padding: 10px;
+         font-size: 20px;
+         color: #fff;
+         display: none;
+         position: fixed;
+         bottom: 25px;
+         right: 12px;
+         border-radius: 5px 5px 0 0; 
+    }
+    
+    #megazine{
+        float: right;
+    }
+    
+    
+    
+    /*crud styles*/
+    
+    #crudPart{
+        margin: auto;
+        background: #6d24e2;
+        border: 4px solid red;
+        width: 300px;
+        text-align: center;
+        max-height: 400px;
+        overflow: auto;
+    }
+    
+    .crudInput {
+        width: 100%;
+        display: none;
+        box-sizing: border-box;
+        padding: 8px;
+        border-radius: 5px;
+        border: 3px solid black;
+        text-align: center;
+    }
+    
+    .crudInput:focus{
+        border: 3px solid #2980b9;
+        outline: none ;
+        background: rgb(15, 15, 15);
+        color: white;
+    }
+    
+    
+    .cruding{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cruding li {
+        margin: 4px;
+        box-sizing: border-box;
+        background: rgb(68, 67, 67);
+        padding: 5px;
+        color: white;
+    }
+    .cruding li:nth-child(2n){
+        margin: 4px;
+        box-sizing: border-box;
+        background: #867e7e;
+        padding: 5px;
+        color: black;
+    }
+    
+    .cruding li span{
+    opacity: 0;
+    }
+    
+    #crudPart ul li:hover span{
+        background: orange;
+        height: 20px;
+        opacity: 1;
+        float: left;
+        color: white;
+        width: 40px;
+        }
+        .crudUlHolder{
+            margin: auto;
+        }
+        /*crud styles end*/
+    
+    
+    
+    
+        #originalAccordioncntnr{
+            border: 5px solid red;
+            width: 70%;
+            margin: auto;
+        }
+    
+    
+    .demo1, .demo2, .demo3, .demo4, .demo5{
+        float: left;
+     
+        background-color: #888988;
+        margin: 20px;
+    
+        padding: 25px 50px;
+        text-align: center;
+    }
+
+
+
+    .percentCircle {
+        max-width: 760px;
+        margin: 150px auto;
+        border: 8px solid #801616;
+        overflow: hidden;
+        box-shadow: 10px 2px 15px 10px #605656;
+        background: #e1e4ea;
+    }
+    .percentCircle div{ 
+         color: white;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;}
+
+        .percentCircle h2 {
+            text-align: center;
+            font-size: 40px;
+            font-style: italic;
+            font-weight: bold;
+            text-shadow: 5px -6px 10px #313135;
+            color: #eaeaea;
+        }
+
+    .cir{position: relative; 
+        top: 2px; 
+        left: 2px;
+         text-align: center;
+          width: 96px;
+           height: 96px;
+           border-radius: 100%; 
+        background-color: rgb(94, 91, 91)!important;
+    }
+    
+    .perc{
+        font-size: 35px!important;
+        color: rgb(249, 10, 10)!important;
+        font-weight: bold!important;
+    }
+
+    
+    .demo3 .perc{
+        font-size: 35px!important;
+        color: rgb(248, 143, 6)!important;
+        font-weight: bold!important;
+    }
+
+    
+    .demo4 .perc{
+        font-size: 35px!important;
+        color: rgb(1, 85, 12)!important;
+        font-weight: bold!important;
+    }
+
+/*Dynamic Text Rotator With Typing Effect - jQuery typer.js*/
+
+
+.profcontainer{
+
+    width: 100%;
+    height: 700px;
+    border: 4px solid black;
+}
+    .containering{
+        border: 5px solid black;
+        max-width: 700px;
+        max-height: 600px;
+        margin: 150PX auto;
+        font-weight: bold; 
+        text-align: center;
+        background-color: rgb(94, 91, 91)!important;
+    }
+
+    .typed{
+        color: tomato;
+    }
+
+    .containering h2{
+        font-size: 80px;
+        color: #ccd2b4;
+        text-shadow: 10px 12px 5px black;
+    }
+
+
+    .containering h1{
+       
+        font-size: 50px;
+        text-shadow: 8px 9px 5px #242222;
+    }
+    
+
+
+/*counterUp*/
+    .counterUping{
+        
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: tomato;
+        text-shadow: 8px 9px 5px #242222;
+        margin: 20px auto;
+    }
+
+
+#counterup h4{
+        
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: black;
+        margin: 20px auto;
+    }
+
+
+   #headerParticle{
+    border: 5px solid red;
+    background-image: url('052819_ec_black-hole_feat.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 85%;
+    margin: auto;
+   }
+
+   #headerParticle h3 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 8px 9px 5px #044d57;
+    text-align: center;
+    padding-top: 0px;
+    overflow: hidden;
+    position: absolute;
+    vertical-align: middle;}
+
+.headerParticle2 {
+    background-color: #000000bf;
+}
+
+
+
+
+#waterripples{
+    border: 5px solid red;
+    background-image: url('fish.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center ;
+    background-size:  100% 100%;
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+   }
+   
